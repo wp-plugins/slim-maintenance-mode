@@ -4,14 +4,15 @@
 * License: GPL-2.0+
 * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Slim Maintenance Mode is a lightweight WordPress plugin for scheduled maintenance. Simply active the plugin and only administrators can see the website. 
+Slim Maintenance Mode is a lightweight WordPress plugin for scheduled maintenance. Simply activate the plugin and only administrators can see the website. 
 
 ## Features
 * No extra settings, just activate it, do maintenance work, deactivate it.
 * Alert message in the backend, when the plugin is active.
 * Works with any theme.
-* Support for the following cache plugins: Cachify, Super Cache, W3 Total Cache
-* Languages: English, German
+* Support for the following cache plugins: Cachify, Super Cache and W3 Total Cache.
+* Sends HTTP response status code `503 Service Unavailable`, especially relevant for search engines.
+* Available in three languages: English, German, Polish.
 
 ##Installation
 1. Download the plugin and unzip the zip-file.

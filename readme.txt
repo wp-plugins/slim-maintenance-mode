@@ -1,6 +1,6 @@
 === Slim Maintenance Mode ===
 Contributors: wpdoc.de
-Tags: maintenance, unavailable, admin, maintenance mode
+Tags: maintenance, unavailable, admin, maintenance mode, cache
 Donate link: http://wpdoc.de/donate/
 Requires at least: 3.5
 Tested up to: 4.0
@@ -11,17 +11,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 Simple and lightweight solution for scheduled maintenance. No settings page, just activate it and do your maintenance work stress-free.
 
 == Description ==
-Slim Maintenance Mode is a lightweight solution for scheduled maintenance. Simply active the plugin and only administrators can see the website. 
+Slim Maintenance Mode is a lightweight solution for scheduled maintenance. Simply activate the plugin and only administrators can see the website. 
 
 = Features =
 * No extra settings, just activate it, do maintenance work, deactivate it.
 * Alert message in the backend, when the plugin is active.
 * Works with any theme.
-* Support for the following cache plugins: Cachify, Super Cache, W3 Total Cache
-* Languages: English, German
+* Support for the following cache plugins: Cachify, Super Cache and W3 Total Cache.
+* Sends HTTP response status code `503 Service Unavailable`, especially relevant for search engines. 
+* Available in three languages: English, German, Polish.
 
 = Bug reports and Contribution =
-Hints, bug reports and contribution is highly appreciated. Please visit the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode).
+Hints, bug reports and contributions are highly appreciated. Please visit the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode).
 
 = Credits =
 Slim Maintenance Mode is developed by [Johannes Ries](http://wpdoc.de).
@@ -41,6 +42,10 @@ There is no settings page. This plugin is designed to be small and simple.
 
 This is only possible by directly changing the plugin file respectively the localization file.
 
+== Screenshots ==
+1. Maintenance message for website visitors in English
+2. Maintenance message for website visitors in German
+
 = I found a bug. How can I get in touch? =
 
 Please comment an existing or create a new issue on the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode/issues).
@@ -50,7 +55,12 @@ Please comment an existing or create a new issue on the [plugins github page](ht
 Please create a pull request on the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode/pulls).
 
 == Changelog ==
+= 1.1 =
+* Several corrections and enhancements of the information texts
+* Added two screenshots
+* Polish translation
+
 = 1.0 =
 * Initial version
 * Support for the following cache plugins: Cachify, Super Cache, W3 Total Cache
-* German Translation
+* German translation
