@@ -1,5 +1,9 @@
 # Slim Maintenance Mode
 ## Changelog
+### 1.2
+* French translation
+* Spanish translation
+
 ### 1.1
 * Several corrections and enhancements of the information texts
 * Added two screenshots

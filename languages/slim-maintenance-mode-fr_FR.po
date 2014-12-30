@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slim Maintenance Mode v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-10 15:33:49+0000\n"
+"Last-Translator: wpdoc.de <dev@wpdoc.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: slim-maintenance-mode.php:0
+#@ slim-maintenance-mode
+msgid "Slim Maintenance Mode"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: slim-maintenance-mode.php:0
+#@ slim-maintenance-mode
+msgid "https://github.com/wpdocde/slim-maintenance-mode"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: slim-maintenance-mode.php:0
+#@ slim-maintenance-mode
+msgid "A lightweight solution for scheduled maintenance. Simply activate the plugin and only administrators can see the website."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: slim-maintenance-mode.php:0
+#@ slim-maintenance-mode
+msgid "Johannes Ries"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: slim-maintenance-mode.php:0
+#@ slim-maintenance-mode
+msgid "http://wpdoc.de"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: slim-maintenance-mode.php:0
+#@ slim-maintenance-mode
+msgid "1.1"
+msgstr ""
+
+#: slim-maintenance-mode.php:83
+#@ slim-maintenance-mode
+msgid "<strong>Maintenance mode</strong> is <strong>active</strong>!"
+msgstr "<strong>Le mode maintenance est actif.</strong>"
+
+#: slim-maintenance-mode.php:84
+#@ slim-maintenance-mode
+msgid "Deactivate it, when work is done."
+msgstr "Désactivez quand le travail soit fini."
+
+#: slim-maintenance-mode.php:98
+#@ slim-maintenance-mode
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#: slim-maintenance-mode.php:98
+#@ slim-maintenance-mode
+msgid "Please check back soon."
+msgstr "S´il vous plait essayez plus tard."
+

@@ -1,6 +1,6 @@
 # Slim Maintenance Mode
-* Requires at least: 3.5
-* Tested up to: 4.0
+* Requires at least: WordPress 3.5
+* Tested up to: WordPress 4.1
 * License: GPL-2.0+
 * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -12,7 +12,7 @@ Slim Maintenance Mode is a lightweight WordPress plugin for scheduled maintenanc
 * Works with any theme.
 * Support for the following cache plugins: Cachify, Super Cache and W3 Total Cache.
 * Sends HTTP response status code `503 Service Unavailable`, especially relevant for search engines.
-* Available in three languages: English, German, Polish.
+* Available in five languages: English, German, French, Spanish, Polish.
 
 ##Installation
 1. Download the plugin and unzip the zip-file.
