@@ -19,7 +19,7 @@ Slim Maintenance Mode is a lightweight solution for scheduled maintenance. Simpl
 * Works with any theme.
 * Support for the following cache plugins: Cachify, Super Cache and W3 Total Cache.
 * Sends HTTP response status code `503 Service Unavailable`, especially relevant for search engines. 
-* Available in five languages: English, German, French, Spanish, Polish.
+* Available in six languages: English, German, French, Spanish, Brazilian Portuguese, Polish.
 
 = Bug reports and Contribution =
 Hints, bug reports, translations and other contributions are highly appreciated. Please visit the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode).
@@ -42,10 +42,6 @@ There is no settings page. This plugin is designed to be small and simple.
 
 This is only possible by directly changing the plugin file respectively the localization file.
 
-== Screenshots ==
-1. Maintenance message for website visitors in English
-2. Maintenance message for website visitors in German
-
 = I found a bug. How can I get in touch? =
 
 Please comment an existing or create a new issue on the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode/issues).
@@ -54,7 +50,16 @@ Please comment an existing or create a new issue on the [plugins github page](ht
 
 Please create a pull request on the [plugins github page](https://github.com/wpdocde/slim-maintenance-mode/pulls).
 
+== Screenshots ==
+1. Maintenance message for website visitors in English
+2. Maintenance message for website visitors in German
+
 == Changelog ==
+= 1.3 =
+* Fixed a bug which caused problems, when loading translated strings
+* Brazilian Portuguese translation
+* Fixed the FAQ
+
 = 1.2 =
 * French translation
 * Spanish translation
@@ -70,5 +75,8 @@ Please create a pull request on the [plugins github page](https://github.com/wpd
 * German translation
 
 == Upgrade Notice ==
+= 1.3 =
+Slim Maintenance Mode is now avialable in Brazilian Portuguese and comes with a bug fix for better loading translated strings.
+
 = 1.2 =
 Slim Maintenance Mode is now available in French and Spanish.

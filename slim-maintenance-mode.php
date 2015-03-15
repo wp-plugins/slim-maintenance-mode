@@ -3,7 +3,7 @@
  * Plugin Name: Slim Maintenance Mode
  * Plugin URI: https://github.com/wpdocde/slim-maintenance-mode
  * Description: A lightweight solution for scheduled maintenance. Simply activate the plugin and only administrators can see the website.
- * Version: 1.2 
+ * Version: 1.3 
  * Author: Johannes Ries
  * Author URI: http://wpdoc.de
  * Text Domain: slim-maintenance-mode
@@ -80,13 +80,16 @@ load_plugin_textdomain( 'slim-maintenance-mode', false, dirname( plugin_basename
 /**
  * Alert message when active
 */
-$smm_active_message = __( '<strong>Maintenance mode</strong> is <strong>active</strong>!', 'slim-maintenance-mode' );
-$smm_admin_notice = '<div id="message" class="error fade"><p>' . $smm_active_message . ' <a href="plugins.php#slim-maintenance-mode">' . __( 'Deactivate it, when work is done.', 'slim-maintenance-mode' ) . '</a></p></div>';
-
+function smm_admin_notices() {
+	echo '<div id="message" class="error fade"><p>' . __( '<strong>Maintenance mode</strong> is <strong>active</strong>!', 'slim-maintenance-mode' ) . ' <a href="plugins.php#slim-maintenance-mode">' . __( 'Deactivate it, when work is done.', 'slim-maintenance-mode' ) . '</a></p></div>';
+}
 if ( is_multisite() && is_plugin_active_for_network( plugin_basename( __FILE__ ) ) )
-add_action( 'network_admin_notices', create_function( '', "echo '$smm_admin_notice';" ) ); 
-add_action( 'admin_notices', create_function( '', "echo '$smm_admin_notice';" ) ); 
-add_filter( 'login_message', create_function( '', "return '<div id=\"login_error\">$smm_active_message</div>';" ) );
+add_action( 'network_admin_notices', 'smm_admin_notices' ); 
+add_action( 'admin_notices', 'smm_admin_notices' ); 
+add_filter( 'login_message',
+	function() {
+		return '<div id="login_error">' . __( '<strong>Maintenance mode</strong> is <strong>active</strong>!', 'slim-maintenance-mode' ) . '</div>';
+	} );
 
 /**
  * Maintenance message when active

@@ -1,5 +1,11 @@
 # Slim Maintenance Mode
 ## Changelog
+
+### 1.3
+* Fixed a bug which caused problems, when loading translated strings
+* Brazilian Portuguese translation
+* Fixed the FAQ
+
 ### 1.2
 * French translation
 * Spanish translation
