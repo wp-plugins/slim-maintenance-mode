@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Slim Maintenance Mode v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-07 10:35+0300\n"
+"Last-Translator: serenitatis <me@serenitatis.ru>\n"
+"Language-Team: serenitatis <me@serenitatis.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ slim-maintenance-mode
+#. translators: plugin header field 'Name'
+#: slim-maintenance-mode.php:0
+msgid "Slim Maintenance Mode"
+msgstr ""
+
+# @ slim-maintenance-mode
+#. translators: plugin header field 'PluginURI'
+#: slim-maintenance-mode.php:0
+msgid "https://github.com/wpdocde/slim-maintenance-mode"
+msgstr ""
+
+# @ slim-maintenance-mode
+#. translators: plugin header field 'Description'
+#: slim-maintenance-mode.php:0
+msgid ""
+"A lightweight solution for scheduled maintenance. Simply activate the plugin "
+"and only administrators can see the website."
+msgstr ""
+"Легковесное решение для запланированного обслуживания. Просто активируйте "
+"плагин, и только администраторы будут видеть сайт."
+
+# @ slim-maintenance-mode
+#. translators: plugin header field 'Author'
+#: slim-maintenance-mode.php:0
+msgid "Johannes Ries"
+msgstr ""
+
+# @ slim-maintenance-mode
+#. translators: plugin header field 'AuthorURI'
+#: slim-maintenance-mode.php:0
+msgid "http://wpdoc.de"
+msgstr ""
+
+# @ slim-maintenance-mode
+#. translators: plugin header field 'Version'
+#: slim-maintenance-mode.php:0
+msgid "1.2"
+msgstr ""
+
+# @ slim-maintenance-mode
+#: slim-maintenance-mode.php:83
+msgid "<strong>Maintenance mode</strong> is <strong>active</strong>!"
+msgstr "<strong>Режим обслуживания</strong> <strong>активен</strong>!"
+
+# @ slim-maintenance-mode
+#: slim-maintenance-mode.php:84
+msgid "Deactivate it, when work is done."
+msgstr "Деактивируйте его после завершения работ."
+
+# @ slim-maintenance-mode
+#: slim-maintenance-mode.php:98
+msgid "Maintenance"
+msgstr "Режим обслуживания"
+
+# @ slim-maintenance-mode
+#: slim-maintenance-mode.php:98
+msgid "Please check back soon."
+msgstr "Пожалуйста, зайдите попозже."

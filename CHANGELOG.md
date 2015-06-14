@@ -1,6 +1,8 @@
 # Slim Maintenance Mode
 ## Changelog
-
+### 1.3.1
+* Russian translation
+* 
 ### 1.3
 * Fixed a bug which caused problems, when loading translated strings
 * Brazilian Portuguese translation
